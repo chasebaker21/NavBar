@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.color {
+    width: 100%;
+    background-color: #551a8b;   
+    color: rgba(255,255,255,0.8);  
+}
+
+
+li {
+    padding: 20px;
+    list-style-type: none;
+
+}
+.left {
+    display: flex;
+    flex-grow: 1;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+
+}
+
+@media only screen and (max-width: 350px) {
+    ul {
+    
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+
+    .left {
+        display: flex;
+        flex-grow: 0;
+        justify-content: center;
+
+    }
+  }
